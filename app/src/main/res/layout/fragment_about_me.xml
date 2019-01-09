@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutMeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/Group1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เมนูอาหารระหว่าง 100-500 กิโลแคลอรี่"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เมนูอาหารที่เกิน 500 แคลอรี่"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เมนูอาหารต่ำกว่า 100 กิโลแคลอรี่"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="อาหารจานเดียว 1 จาน"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="อาหารว่าง"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ของหวาน"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เครื่องดื่ม"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ขนมหวาน ต่อ 1 ถ้วย"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="อาหารอบ"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ผลไม้ จำนวนแคลอรี่ต่อ 1 ผล"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ข้าว และกับข้าว"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="อาหารที่กินประจำ"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>
