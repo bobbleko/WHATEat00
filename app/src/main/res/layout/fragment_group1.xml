@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Group1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/Group01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="สลัดกุ้ง สลัดไก่ ลาบปลา แกงเลียง อย่างละ 100 กิโลแคลอรี่"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ต้มเลือดหมู 120 กิโลแคลอรี่"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="หมูปิ้ง 1 ไม้ 130 กิโลแคลอรี่"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ลาบหมู 130 กิโลแคลอรี่"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ปลาเผา ปลานึ่ง อย่างละ 150 กิโลแคลอรี่"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group06"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ไข่เจียว 1 ฟอง 167 กิโลแคลอรี่"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group07"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="แกงจืดตำลึงหมูสับ ข้าวสวยกับไข่พะโล้ อย่างละ 200 กิโลแคลอรี่"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group08"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="สุกี้ 220 กิโลแคลอรี่"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group09"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เส้นหมี่ลูกชิ้นเนื้อวัวน้ำกวยจั๊บ 230 กิโลแคลอรี่"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group010"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ขนมจีนน้ำพริก 230 กิโลแคลอรี่"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group011"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ขพิซซ่า 1 ชิ้น 230 กิโลแคลอรี่"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group012"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="อบะหมี่หมูแดง 231 กิโลแคลอรี่"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</FrameLayout>

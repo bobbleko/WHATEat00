@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Group2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/Group001"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ข้าวราดแกงเผ็ดเขียวหวานไก่ 500 กิโลแคลอรี่"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group002"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ข้าวหมูกระเทียม 1 จาน 525 กิโลแคลอรี่"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group003"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เส้นเล็กแห้งหมู 530 กิโลแคลอรี่"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group004"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ข้าวหมกไก่ 1 จาน 540 กิโลแคลอรี่"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group005"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ข้าวผัดกระเพรากุ้ง 1 จาน ถ้ามีไข่ดาว+165 Kcal เพิ่ม 540 กิโลแคลอรี่"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group006"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ข้าวผัดหมูใส่ไข่ เส้นใหญ่ผัดขี้เมา อย่างละ 550 กิโลแคลอรี่"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group007"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ข้าวผัดใบกระเพราไก่ 1 จาน ถ้ามีไข่ดาว+165 Kcal เพิ่ม 554 กิโลแคลอรี่"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group008"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ข้าวหมูแดง 1 จาน 560 กิโลแคลอรี่"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group009"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="อาหารอบ"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group0010"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="หอยทอด 570 กิโลแคลอรี่"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group0011"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="บิ๊กแม็ค 570 กิโลแคลอรี่"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group0012"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ผัดไทยใส่ไข่ 580 กิโลแคลอรี่"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>
