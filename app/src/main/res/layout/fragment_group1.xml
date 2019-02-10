@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Group1">
-
+<!--อาหารจารเดียว-->
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -13,11 +13,19 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+            <TextView
+                android:layout_margin="@dimen/h2"
+                android:id="@+id/Group100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="อาหารจานเดียว"
+                android:textSize="30dp"
+                android:textStyle="bold" />
             <Button
                 android:id="@+id/Group01"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="สลัดกุ้ง สลัดไก่ ลาบปลา แกงเลียง อย่างละ 100 กิโลแคลอรี่"
+                android:text="ข้าวคะน้าหมูกรอบ	670	Kcal"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -25,7 +33,7 @@
                 android:id="@+id/Group02"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="ต้มเลือดหมู 120 กิโลแคลอรี่"
+                android:text="ข้าวผัดหมูใส่ไข่	660	Kcal"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -33,7 +41,7 @@
                 android:id="@+id/Group03"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="หมูปิ้ง 1 ไม้ 130 กิโลแคลอรี่"
+                android:text="ข้าวราดกระเพราไก่-ไข่ดาว	630	Kcal"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -41,7 +49,7 @@
                 android:id="@+id/Group04"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="ลาบหมู 130 กิโลแคลอรี่"
+                android:text="ข้าวมันไก่	596	Kcal"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -49,7 +57,7 @@
                 android:id="@+id/Group05"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="ปลาเผา ปลานึ่ง อย่างละ 150 กิโลแคลอรี่"
+                android:text="ข้าวขาหมู	690	Kcal"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -57,7 +65,7 @@
                 android:id="@+id/Group06"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="ไข่เจียว 1 ฟอง 167 กิโลแคลอรี่"
+                android:text="ข้าวสตูว์ไก่	465	Kcal"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -65,7 +73,7 @@
                 android:id="@+id/Group07"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="แกงจืดตำลึงหมูสับ ข้าวสวยกับไข่พะโล้ อย่างละ 200 กิโลแคลอรี่"
+                android:text="ข้าวกุ้งทอดกระเทียมพริกไทย	465	Kcal"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -73,7 +81,7 @@
                 android:id="@+id/Group08"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="สุกี้ 220 กิโลแคลอรี่"
+                android:text="ข้าวคลุกกะปิ	410	Kcal"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -81,7 +89,7 @@
                 android:id="@+id/Group09"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="เส้นหมี่ลูกชิ้นเนื้อวัวน้ำกวยจั๊บ 230 กิโลแคลอรี่"
+                android:text="ข้าวซอยไก่,หมู	395	Kcal"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -89,7 +97,7 @@
                 android:id="@+id/Group010"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="ขนมจีนน้ำพริก 230 กิโลแคลอรี่"
+                android:text="ข้าวต้ม(ข้าวกล้อง)	120	Kcal"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -97,7 +105,7 @@
                 android:id="@+id/Group011"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="ขพิซซ่า 1 ชิ้น 230 กิโลแคลอรี่"
+                android:text="ขข้าวผัดกุนเขียง	590	Kcal"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -105,9 +113,316 @@
                 android:id="@+id/Group012"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="อบะหมี่หมูแดง 231 กิโลแคลอรี่"
+                android:text="ข้าวผัดกุ้งใส่ไข่	595	Kcal"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group013"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ข้าวผัดคะน้าหมูกรอบ	670	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group014"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ข้าวผัดต้มยำทะเลแห้ง	400	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group015"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ข้าวผัดน้ำพริกลงเรือ	605	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group016"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ข้าวผัดปลาหึกน้ำพริกเผา	535	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group017"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ข้าวผัดปลาเค็ม	405	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group018"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ข้าวผัดปูใส่ไข่	610	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group019"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ข้าวผัดผักกระเฉดหมูกรอบ	600	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group020"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ข้าวผัดมันกุ้งใส่ไข่	575	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group021"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ข้าวผัดสับปะรด	335	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group022"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ข้าวผัดหนำเลียบ-หมู-ไข่	370	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group023"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ขข้าวผัดหมูน้ำพริกเผา	665	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group024"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ขข้าวผัดอเมริกัน	790	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group025"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ข้าวผัดแกงเขียวหวานไก่	630	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group026"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ข้าวผัดแหนม	610	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group027"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ข้าวผัดไส้กรอก	520	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group028"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ข้าวมันส้มตำ เนื้อผัดหวาน	590	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group029"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ข้าวมันไก่ทอด	695	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group030"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ข้าวยำปักษ์ใต้	180	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group031"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ข้าวราดหน้าไก่	400	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group032"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ข้าวสวย(ข้าวกล้อง)3ทัพพี	240	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group033"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ขข้าวสวย(ข้าวขาว)3ทัพพี	240	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group034"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ข้าวหน้ากุ้งผัดพริกสด	540	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group035"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ขข้าวหน้าเป็ด	495	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group036"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ขข้าวหน้าหมกไก่	540	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group037"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ข้าวหน้าหมูกระเทียม	525	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group038"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ข้าวหมูแดง	560	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group039"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ข้าวอบเผือก	385	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group040"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ข้าวเหนียวนึ่ง 1-2 ทัพพี	80	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group041"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ข้าวเหนียวหน้ากุ้ง 1ห่อ	179	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group042"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ข้าวเหนียวหมูทอด 1 ชุด	440	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group043"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ข้าวเหนียวหมูสวรรค์ 1 ชุด	480	Kcal
+"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group044"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ข้าวแช่ 1 ชุด	350	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group045"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ข้าวไก่อบ	490	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group046"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ข้าวไข่เจียว	445	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group047"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="แฮมเบอร์เกอร์ชีส ไก่	280	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group048"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="แฮมเบอร์เกอร์ชีส หมู	245	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group049"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="โจ๊กหมู	160	Kcal
+"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group050"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="โจ๊กหมู ตับ ไข่ลวก	230	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
 
         </LinearLayout>
 

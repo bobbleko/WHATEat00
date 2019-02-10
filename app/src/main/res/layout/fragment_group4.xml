@@ -4,11 +4,253 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Group4">
-
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <!--แกง-->
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Group300"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/h2"
+                android:text="แกง"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group401"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="พะแนงไก่	230	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group402"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="แกงกะหรี่หมู	325	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group403"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="แกงขี้เหล็ก	195	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group404"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="แกงขี้เหล็กหมูย่าง	245	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group405"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="แกงจืดตำลึงหมูสับ	90	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group406"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="แกงจืดถั่วงอกหมูสับ	50	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group407"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="แกงจืดฟักยัดไส้	90	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group408"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="แกงจืดทะระยัดไส่	90	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group409"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="แกงจืดเต้าหู้หมูสับ	80	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group4010"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="แกงจืดไข่เจียว	220	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group4011"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="แกงป่าไก่	130	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group4012"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="แกงส้มชะอมทอดกับกุ้ง	270	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group4013"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="แกงส้มผักกะเฉก	110	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group4014"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="แกงส้มผักบุ้ง	105	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group4015"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="แกงส้มผักรวม	120	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group4016"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="แกงหมูเทโพ	300	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group4017"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="แกงเขียวหวานปลาดุก	235	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group4018"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="แกงเขียวหวานหมู	240	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group4019"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="แกงเขียวหวานไก่	235	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group4020"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="แกงเผ็ดฟักทองหมู	250	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group4021"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="แกงเผ็ดลูกชิ้น	240	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group4022"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="แกงเผ็ดเป็ดย่าง	240	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group4023"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="แกงเผ็ดไก่ใส่มะเขือ	235	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group4024"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="แกงเผ็ดไก่ใส่หน่อไม้	245	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group4025"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="แกงเลียง	115	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group4026"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="แกงเหลืองมะละกอกับกุ้ง	80	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group4027"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="แกงเหลืองหน่อไม้ดองกับปลา	80	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group4028"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="แกงไตปลา	 50	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
 
 </FrameLayout>

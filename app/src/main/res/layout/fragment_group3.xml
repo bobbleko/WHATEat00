@@ -4,96 +4,281 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Group3">
+    <!--ผัด-->
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <LinearLayout
-            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-            <Button
-                android:id="@+id/Group0001"
+            <TextView
+                android:id="@+id/Group300"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="ยำผักกาดดอง 35 กิโลแคลอรี่"
+                android:layout_margin="@dimen/h2"
+                android:text="ผัด"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group301"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="กุ้งผัดพริกอ่อน	235	Kcal"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/Group0002"
+                android:id="@+id/Group302"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="ทอดมัน 1 ชิ้น 40 กิโลแคลอรี่"
+                android:text="ปลาหมึกผัดฉ่า	260	Kcal"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/Group0003"
+                android:id="@+id/Group303"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="ยำมะเขือยาว 40 กิโลแคลอรี่"
+                android:text="ผัดกะหล่ำปลี หมู กุ้ง	230	Kcal"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/Group0004"
+                android:id="@+id/Group304"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="แกงส้ม 40 กิโลแคลอรี่"
+                android:text="ผัดคะน้าปลาเค็ม	200	Kcal"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/Group0005"
+                android:id="@+id/Group305"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="ผัดผักบุ้ง 60 กิโลแคลอรี่"
+                android:text="ขผัดดอกกระหล่ำกับกุ้ง	210	Kcal"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/Group0006"
+                android:id="@+id/Group306"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="ต้มยำไก่ 61 กิโลแคลอรี่"
+                android:text="ผัดดอกกุ่ยช่ายกับตับ	210	Kcal"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/Group0007"
+                android:id="@+id/Group307"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="ต้มยำกุ้ง 66 กิโลแคลอรี่"
+                android:text="ผัดถั่วงอกกับเต้าหู้	155	Kcal"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/Group0008"
+                android:id="@+id/Group308"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="ไข่ต้ม 1 ฟอง 75 กิโลแคลอรี่"
+                android:text="ผัดถั่วลันเตากับกุ้ง	190	Kcal"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/Group0009"
+                android:id="@+id/Group309"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="สลัดผักส้มตำ 80 กิโลแคลอรี่"
+                android:text="ผัดบร้อกโคลี่กับกุ้ง	210	Kcal"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/Group00010"
+                android:id="@+id/Group3010"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="ซุบหน่อไม้และแกงจืดวุ้นเส้น 90 กิโลแคลอรี่"
+                android:text="ผัดบวบใส่ไข่	210	Kcal"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
-            
+            <Button
+                android:id="@+id/Group3011"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ผัดผักกระเฉดน้ำมันหอย	185	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group3012"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ผัดผักกาดดองใส่ไข่	205	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group3013"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ผัดผักบุ้งไฟแดง	210	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group3014"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ผัดผักรวมกับหมู	210	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group3015"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ผัดพริกขิงกุ้งกับถั่วฝักยาว	245	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group3016"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ผัดพริกแกงหมูกับหน่อไม้	200	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group3017"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ผัดฟักทองใส่ไข่	255	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group3018"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ผัดมะเขือยาวหมูสับ	210	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group3019"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ผัดยอดมะระน้ำมันหอย	185	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group3020"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ผัดวุ้นเส้นใส่ไข่	265	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group3021"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ผัดสะตอกับหมู	200	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group3022"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ผัดหน่อกับไข่	200	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group3023"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ผัดหน่ไม้ฝรั่งกับกุ้ง	230	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group3024"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ผัดเปรี้ยวหวานไก่	215	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group3025"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ผัดเผ็ดปลาดุก	200	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group3026"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ผัดเผ็ดปลาทอดกรอบ	290	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group3027"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ผัดเผ็ดหมูกับมะเขือ	250	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group3028"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ผัดไชโป๊วใส่ไข่	125	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group3029"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="หมูผัดขิง	275	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group3030"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เครื่องในไก่ผัดขิง	200	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group3031"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ไก่ผัดขิง	210	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group3032"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ไข่ลูกเขย	205	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
 
         </LinearLayout>
 

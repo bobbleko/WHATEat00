@@ -4,11 +4,373 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Group5">
-
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <!--ทอด-->
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Group300"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/h2"
+                android:text="ทอด"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group501"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="กระทงทอด ไส้ไก่ ซอทขาว 3 ชิ้น 	280	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group502"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="กระทงทอด ไส้ข้าวโพด	215	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group503"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="กุนเชียงทอด 1 คู่เล็ก	240	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group504"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="กุ้งทอดกระเทียวพริกไทย 3 ตัวกลาง	215	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group505"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ปลาชุบขนมปังทอด สลัดผัก	595	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group506"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ปลาทอดสามรส (ขนาดกลาง)	470	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group507"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ปลาทูทอด 1 ตัวเล็ก	280	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group508"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ปลาราดพริก 1 จาน	300	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group509"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ปลาสลิดทอด	190	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group5010"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ปลาสำลีแดดเดียว ยำมะม่วงครึ่งตัวเล็ก	415	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group5011"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ปลาอินทรีย์เค็มทอด	115	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group5012"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ปลาเล็กปลาน้อยทอดกรอบ 1 ชอนโต๊ก	80	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group5013"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ขปอเปี๊ยะทอด 2 ชิ้น	315	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group5014"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ปอเปี๊ยะสด	175	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group5015"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ปีกไก่สอดไส้ทอด 1 ชิ้น	310	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group5016"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="พอร์คชอปทอด ผัดผัดเนย 	545	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group5017"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="มันทอด 2 ชิ้น	248	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group5018"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="มันฝรั่งแผ่นทอด (Chip) 6 ชิ้น	80	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group5019"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ลูกชิ้นทอด 6 ลูก	210	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group5020"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="หมูกรอบ	560	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group5021"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="หมูครุกเกร็ดขนมปังทอด ซอส 1 ชุด	645	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group5022"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="หมูทอดกระเทียมพริกไทย 	245	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group5023"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="หมูทอดเนย สลัดน้ำใส	635	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group5024"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="หมูฝอย 2 ช้อนโต๊ะ	75	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group5025"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="หมูแผ่น 1แผ่นกลาง	120	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group5026"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="หอยแมลงภู่ทอด	605	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group5027"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เกี๊ยวกรอบ 3 ชิ้น	235	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group5028"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เกี๊ยวกรอบราดหน้ากุ้ง	635	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group5029"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เกี๊ยวซ่า 3 ชิ้น	190	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group5030"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เต้าหู้ทอด 3 ชิ้น	260	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group5031"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เนื้อเค็มทอด	280	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group5032"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เฟรนฟรายด์ 6 ชิ้น	220	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group5033"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="แคบหมู มีมัน 5 ชิ้นเล็ก	65	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group5034"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="แคบหมูไร้มัน 5 ชิ้นเล็ก	50	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group5035"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ไก่ทอด 1 น่อง	345	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group5036"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ไข่ดาวทรงเครื่อง 	250	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group5037"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ไข่ดาว 1 ฟอง	165	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group5038"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ไข่ตุ๋น	75	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group5039"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ไข่ยัดไส้	310	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group5040"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ไข่เจียว	200	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group5041"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ไข่เจียวหมูสับ	250	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group5042"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ไส้กรอกทอด	280	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group5043"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ไส้กรอกอีสาน	90	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
 
 </FrameLayout>

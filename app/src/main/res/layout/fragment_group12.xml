@@ -4,11 +4,229 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Group12">
-
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <!--ธัณพืช-->
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Group1100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/h2"
+                android:text="ธัญพืช"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1101"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ข้าวโอ๊ตสุก 1 ถ้วยตวง	130	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1102"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ข้าวโพดต้ม 1 ฝักเล็ก	200	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1103"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="คอร์นเฟลค 1 ถ้วยตวง	110	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1104"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="งาขาว 100 กรัม	628	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1105"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="งาดำ 100 กรัม	593	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1106"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ถั่วดำดิบ 100 กรัม	332	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1107"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ถั่วลิสงดิบ 100 กรัม	530	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1108"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ถั่วลิสงต้ม 1 ช้อนโต๊ะ	45	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1109"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ถั่วลิสงแผ่นทอด 1 แผ่น	150	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group11010"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ถั่วเขียวดิบ 100 กรัม	329	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group11011"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ถั่วเหลืองดิบ 100 กรัม	411	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group11012"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ถั่วแขก 100 กรัม	366	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group11013"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ถั่วแดงดิบ 100 กรัม	315	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group11014"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ถั่วแระต้ม 1 ช้อนโต๊ะ	25	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group11015"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ลูกเดือย 100 กรัม	365	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group11016"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ลูกเดือยต้มน้ำตาล 1 ถ้วย	140	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group11017"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="อัลมอนต์อบเกลือ 1 ช้อนโต๊ะ	45	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group11018"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เมล็ดทานตะวันอบกรอบ 1 ช้อนโต๊ะ	45	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group11019"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เมล็ดบัวนึ่ง 100 กรัม	157	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group11020"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เมล็ดฟักทองอบกรอบ 1 ช้อนโต๊ะ	55	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group11021"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เมล็ดแตงโมแห้ง 1 ช้อนโต๊ะ	45	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group11022"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เม็ดขนุน 5 เม็ด	174	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group11023"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เม็ดมะม่วงหิมพานต์ 100 กรัม	493	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group11024"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เม็ดมะม่วงหิมพานต์อบเนย 8-10 เม็ด	110	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group11025"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เม็ดมะม่วงหิมพานต์อบเนย 8-10 เม็ด	110	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
 
 </FrameLayout>

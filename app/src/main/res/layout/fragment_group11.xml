@@ -4,11 +4,101 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Group11">
-
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <!--น้ำพริก-->
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Group1100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/h2"
+                android:text="น้ำพริฃ"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1101"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="น้ำพริกกะปิผักสด	28	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1102"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="น้ำพริกกุ้งเผา	90	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1103"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="น้ำพริกปลาป่น	35	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1104"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="น้ำพริกมะขามเปียก	55	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1105"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="น้ำพริกมะขามสด	210	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1106"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="น้ำพริกมะม่วง	100	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1107"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="น้ำพริกลงเรือ	195	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1108"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="น้ำพริกหนุ่ม	18	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1109"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="น้ำพริกอ่อง	80	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
 
 </FrameLayout>

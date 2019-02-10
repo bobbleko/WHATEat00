@@ -4,11 +4,76 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Group8">
-
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <!--นึ่ง-->
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_margin="@dimen/h2"
+                android:id="@+id/Group800"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="นึ่ง"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/Group801"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="กุ้งนางนึ่งนมสด	185	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group802"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ปลากระพงนึ่งมะนาว	155	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group803"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ปลาราดซอดมะนาว มันฝรั่งทอด	560	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group504"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ปลาหมึกนึ่งมะนาว 1 ตัว	85	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group505"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เต้ากู้ขาวอ่อน 1หลอด	110	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group506"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เต้าหู้เหลือง 1 อัน 	90	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
 
 </FrameLayout>

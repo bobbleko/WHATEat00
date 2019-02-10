@@ -4,108 +4,247 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Group2">
+    <!--ต้ม-->
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <LinearLayout
-            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-            <Button
-                android:id="@+id/Group001"
+            <TextView
+                android:id="@+id/Group200"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="ข้าวราดแกงเผ็ดเขียวหวานไก่ 500 กิโลแคลอรี่"
+                android:layout_margin="@dimen/h2"
+                android:text="ต้ม"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group201"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ต้มกะทิสายบัว	225	Kcal"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/Group002"
+                android:id="@+id/Group202"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="ข้าวหมูกระเทียม 1 จาน 525 กิโลแคลอรี่"
+                android:text="ต้มข่าไก่	210	Kcal"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/Group003"
+                android:id="@+id/Group203"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="เส้นเล็กแห้งหมู 530 กิโลแคลอรี่"
+                android:text="ต้มจับฉ่าย	180	Kcal"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/Group004"
+                android:id="@+id/Group204"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="ข้าวหมกไก่ 1 จาน 540 กิโลแคลอรี่"
+                android:text="ขต้มตือฮวน	160	Kcal"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/Group005"
+                android:id="@+id/Group205"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="ข้าวผัดกระเพรากุ้ง 1 จาน ถ้ามีไข่ดาว+165 Kcal เพิ่ม 540 กิโลแคลอรี่"
+                android:text="ต้มยำกุ้ง	65	Kcal"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/Group006"
+                android:id="@+id/Group206"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="ข้าวผัดหมูใส่ไข่ เส้นใหญ่ผัดขี้เมา อย่างละ 550 กิโลแคลอรี่"
+                android:text="ต้มผักการดอง ซี่โครงหมู	90	Kcal"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/Group007"
+                android:id="@+id/Group207"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="ข้าวผัดใบกระเพราไก่ 1 จาน ถ้ามีไข่ดาว+165 Kcal เพิ่ม 554 กิโลแคลอรี่"
+                android:text="ต้มยำปลากระป๋อง	55	Kcal"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/Group008"
+                android:id="@+id/Group208"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="ข้าวหมูแดง 1 จาน 560 กิโลแคลอรี่"
+                android:text="ต้มยำปลากระพง	80	Kcal"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/Group009"
+                android:id="@+id/Group209"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="อาหารอบ"
+                android:text="ต้มยำเห็ดสด	30	Kcal"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/Group0010"
+                android:id="@+id/Group2010"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="หอยทอด 570 กิโลแคลอรี่"
+                android:text="ต้มส้มปลาทู	130	Kcal"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/Group0011"
+                android:id="@+id/Group2011"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="บิ๊กแม็ค 570 กิโลแคลอรี่"
+                android:text="ต้มหัวผักกาดขาว ซี่โครงหมู	90	Kcal"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/Group0012"
+                android:id="@+id/Group2012"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="ผัดไทยใส่ไข่ 580 กิโลแคลอรี่"
+                android:text="ต้มเลือดหมู	120	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group2013"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ต้มโคล้งปลากรอบ	60	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group2014"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ต้มโคล้งไก่ย่าง	115	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group2015"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ฟังตุ๋นมะนาวดอง	125	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group2016"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="หมูจุ่ม 1 ชุด	375	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group2017"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ต้มหัวผักกาดขาว ซี่โครงหมู	90	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group2018"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เกาเหลาลูกชิ้นน้ำใส	225	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group2019"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เกี๊ยวน้ำกุ้ง	275	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group2020"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ตเกี๊ยวปลาน้ำ	165	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group2021"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เป็ดตุ๋น มะนาวดอง	110	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group2022"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เป็นพะโล้	110	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group2023"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ไก่ต๋นมะนาวดอง	110	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group2024"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ไข่ต้ม น้ำปลามะนาว	75	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group2025"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ไข่นกกระทา 	17	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group2026"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ไข่พะโล้ 1ถ้วย	180	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group2027"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ไข่ลวก 1 ฟอง	75	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group2028"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ไข่เค็ม 1 ฟอง	75	Kcal"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 

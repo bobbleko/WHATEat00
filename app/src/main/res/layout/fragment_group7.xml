@@ -4,11 +4,52 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Group7">
-
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <!--อบ-->
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_margin="@dimen/h2"
+                android:id="@+id/Group700"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="อบ"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/Group701"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="กุ้งอบวุ้นเส้น	300	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group702"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ปลาช่อนอบเกลือ	220	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group703"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="หอยแมลงภู่อบหม้อดิน 4-5 ตัว	85	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
 
 </FrameLayout>

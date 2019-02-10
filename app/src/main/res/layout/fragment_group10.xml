@@ -4,11 +4,446 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Group10">
-
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <!--เส้น-->
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Group1000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/h2"
+                android:text="เส้น"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1001"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เส้นเส้นใหญ่ผัดซีอิ้วหมู	679	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1002"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="กระเพาะปลา 	150	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1003"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="กระเพาะปลาตุ๋นน้ำแดง	225	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1004"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ก๋วยจ๊บ	240	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1005"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ก๋วยจั๊บญวณ	235	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1006"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ก๋วยเตี๋ยวคั่วไก่	435	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1007"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ก๋วยเตี๋ยวต้มยำกุ้ง	320	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1008"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ก๋วยเตี๋ยวกระเพราไก่	440	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1009"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ก๋วยเตี๋ยวผัดไทยกุ้งสดใส่ไข่	545	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group10010"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ก๋วยเตี๋ยวราดหน้าปลากระง	435	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group10011"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ก๋วยเตี๋ยวหลอด 	225	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group10012"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ก๋วยเตี๋ยวเนื้อ	370	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group10013"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ก๋วยเตียวเรือน้ำตกน้ำ	180	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group10014"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ก๋วยเตี๋ยวเรือน้ำตกแห่ง	225	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group10015"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ก๋วยเตี๋ยวเส้นปลา น้ำ 	375	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group10016"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ก๋วยเตี๋ยวเส้นปลา แห้ง	420	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group10017"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ก๋วยเตี่ยวเส้นเล็ก้มยำหมู	335	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group10018"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ก๋วยเตี๋ยวเส้นใหญ่ผีดซีอิ้วใส่ไข่	520	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1019"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ก๋วยเตี๋ยวเส้นใหญ่ราดหน้าหมู	405	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1020"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ก๋วยเตี๋ยวแขก	380	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group10021"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ขนมจีน 1 จับ	50	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group10022"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ขนมจีน 2 ทัพพี	160	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group10023"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ขนมจีนน้ำพริก	450	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group10024"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ขนมจีนน้ำยา	375	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group10025"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ขนมจีนน้ำเงี่ยว	305	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group10026"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ข้าวปุ้น	180	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/Group10027"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="บะหมี่หรอบราดหน้า	690	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group10028"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="บะหมี่กึ่งสำเร็จรูปผัดกระเพราหมู	540	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group10029"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="บะหมี่กึ่งสำเร็จรูปผัดขี้เมา	530	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group10030"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="บะหมูน่องไก่ - น้ำ	375	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group10031"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="บะหมี่น้ำต้มยำหมู	300	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group10032"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="บะหมี่เยวหมูแดง	305	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group10033"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="บะหมีเป็ดน้ำ	370	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1034"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="บะหมี่แห้ง หมูแดง	345	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group10035"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ผัดไทยห่อไข่	565	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group10036"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ผัดไทยไร้เส้น	350	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group10037"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="มักกะโรนีผัดกุ้ง	420	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group10038"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ยากิโซบะ	400	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group10039"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="สปาเกตตี้กระเพรากุ้ง	485	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group10040"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="สปาเก็ตตี้ไก่อบ	430	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group10041"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="วุ้นเส้นผัดไทย กุ้งสด	520	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group10042"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="สุกี้ยากี้ ไก่ -น้ำ	345	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group10043"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="หมี่กรอบราดหน้าหมู	690	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group10044"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="หมี่กะทิ	405	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1045"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="หมี่ซั่วผัด	395	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1046"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เฝอ	240	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group10047"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เมี่ยงก๋วยเตี๋ยว	60	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group10048"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เย็นตาโฟ	290	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group10049"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เส้นจันท์ผัดปู	575	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group10050"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เส้นหมี่ลูกชิ้นหมู	430	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group10051"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เส้นใหญ่ผัดขี้เมา	550	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group10052"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="โกยซีหมี่	550	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
 
 </FrameLayout>
