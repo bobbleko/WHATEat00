@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".group14">
+
+    <!--เครื่องดื่ม-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Group1400"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/h2"
+                android:text="เครื่องดื่ม"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1401"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="น้ำกระเจี๊ยบ	120	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1402"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="น้ำโค้ก, น้ำเป๊ปซี่	100	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1403"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="น้ำมะเขือเทศ	48	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1404"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ชาเย็นหรือชามะนาว	100	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1405"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="น้ำมะตูม	120	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1406"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="น้ำมะนาว	100 	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1407"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="น้ำมะพร้าว	120 	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1408"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="น้ำลำใย	  100 	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1409"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="น้ำส้มคั้น	  160 	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group14010"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="น้ำสับปะรด	   125 	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group14011"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="น้ำองุ่น	 112 	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group14012"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="น้ำอ้อย	240 	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group14013"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="รูทเบียร์	105 	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group14014"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ถโอเลี้ยง	103	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group14015"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="วอดก้า	2 	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group14016"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="วิสกี้	2 	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group14017"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="บรั่นดี	2 	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group14018"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="นมเย็น	425	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group14019"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="น้ำขิง (ขิงผงรสหวาน)	60	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group14020"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="น้ำจับเลี้ยง	100	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group14021"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="น้ำชาเขียว (250 ml)	70	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group14022"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="น้ำชาเขียวผสมน้ำผึ้ง (250 ml)	70	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group11023"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="น้ำตาลทราย	20	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group14024"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="น้ำนมข้าวโพด 	80	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group14025"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="น้ำผลไม้รวม 	100	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group14026"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="น้ำผักรวม	90	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group14027"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="น้ำฝรั่ง 100%(200 ml) 	100	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group14028"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="กาแฟเย็น	317	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group11029"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="โกโก้เย็น	334	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group14030"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ชาเขียว(นม)เย็น	319	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group14031"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ชานมเย็น	319	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>

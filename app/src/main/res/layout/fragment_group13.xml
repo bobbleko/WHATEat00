@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".group13">
+    <!--ผลไม้-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Group1100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/h2"
+                android:text="ผลไม้"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1301"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ขกล้วยไข่	147	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1302"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="กล้วยน้ำไทย	124	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1303"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="กล้วยน้ำหว้า	148	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1304"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="กล้วยหอม	132	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1305"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="กล้วยหักมุก	113	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1306"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ขนุน, ละมุด	117	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1307"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เงาะ	67	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1308"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เงาะโรงเรียน	76	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group1309"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เงาะสีชมพู	79	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13010"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ชมพู่แก้มแหม่ม	16	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13011"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ชมพู่แขกดำ	27	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13012"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ชมพู่นาค	21	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13013"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ชมพู่มะเหมี่ยว	24	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13014"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ชมพู่เมืองเพชร	28	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13015"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ชมพู่สาแหรก	32	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13016"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ชมพู่สีชาด	21	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13017"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="องุ่น	69	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13018"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="แตงไทย, สุก	13	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13019"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="แตงโม, สุก	25	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13020"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ทุเรียนกระดุม	134	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13021"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ทุเรียนก้านยาว	187	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13022"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ทุเรียนชะนี	148	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13023"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ทุเรียนลวง	160	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13024"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ทุเรียนหมอนทอง	163	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13025"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ทุเรียน, กวน	340	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13026"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="น้อยหน่า	98	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13027"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ฝรั่ง, กลมสาลี่	43	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13028"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="พุทราไทย	89	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13029"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="พุทรา, ลูกยาว	120	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13030"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="พุทราแอปเปิ้ล	50	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13031"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="แพชชั่นฟรุท, ผล, เนื้อภายนอก	50	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13032"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="แพชชั่นฟรุท, น้ำคั้น	60	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13033"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="แพชชั่นฟรุท, กวน(แยม)	322	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13034"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="แพชชั่นฟรุท, ผล, เมล็ด	294	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13035"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="มะกอกฝรั่ง	52	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13036"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="มะขามเทศ, ชนิดมัน	87	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13037"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="มะขามป้อม	70	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13038"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="มะขามหวาน	333	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13039"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="มะปรางสุก	53	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13040"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="มะเฟือง	37	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13041"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="มะไฟ	48	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13042"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="มะม่วงแก้วดิบ	76	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13043"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="มะม่วงแก้วสุก	93	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13044"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="มะม่วงเขียวสะอาด, ดิบ	61	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13045"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="มะม่วงเขียวเสวย, ดิบ	87	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13046"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="มะม่วงเขียวเสวย, สุก	82	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13047"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="มะม่วงคาราบาว, สุก	63	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13048"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="มะม่วงทองดำ,ดิบ	105	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13049"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="มะม่วงพราหมณ์, สุก	49	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13050"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="มะม่วงพิมเสน, สุก	64	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13051"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="มะม่วงพิมเสนมัน, ดิบ	91	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13052"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="มะม่วงแรดดิบ	51	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13053"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="มะม่วงอกร่อง, สุก	79	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13054"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="มะม่วงหนังกลางวัน, สุก	83	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13055"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="มะม่วงแห้วมัน, ดิบ	73	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13056"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="มะม่วงหิมพานต์, ผล, สุก	53	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13057"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="มะละกอ, ดิบ	24	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13058"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="มะละกอ, สุก	53	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13059"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ถมะละกอ, ค่อนข้างสุก	13	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13060"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="มะละกอ, สุก, จ.อุบลฯ	24	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13061"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="มะพร้าวขูด	326	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13062"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="มะพร้าวขูด, กาก	154	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13063"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="มะพร้าวอ่อน, เนื้อ	73	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13064"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="มังคุด	82	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13065"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ระกำ	50	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13066"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ละมุด, ไทย	93	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13067"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ละมุด, มะกอก	35	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13068"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ลางสาด	67	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13069"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ลำใย	111	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13070"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ลำใย, กะโหลก	77	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13071"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ลำใย, เบี้ยวเขียว	66	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13072"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ลิ้นจี่	57	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13073"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ลูกจัน, สุก	325	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13074"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ลูกตาล, อ่อน	49	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13075"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ลูกหว้า	59	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13076"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="สละ	74	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13077"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ส้มเกลี้ยง	52	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13078"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ส้ม, เขียวหวาน	42	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13079"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ส้มโอ, ทองดี	44	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Group13080"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ส้มโอ, บางขุนนนท์	52	Kcal"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>

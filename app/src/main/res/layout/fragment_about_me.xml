@@ -13,7 +13,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <Button
-                android:id="@+id/Group1"
+                android:id="@+id/Group001"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="อาหารจานเดียว"
@@ -21,7 +21,7 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/Group2"
+                android:id="@+id/Group002"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="ต้ม"
@@ -29,7 +29,7 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/Group3"
+                android:id="@+id/Group003"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="ผัด"
@@ -37,7 +37,7 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/Group4"
+                android:id="@+id/Group004"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="แกง"
@@ -45,7 +45,7 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/Group5"
+                android:id="@+id/Group005"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="ทอด"
@@ -53,7 +53,7 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/Group6"
+                android:id="@+id/Group006"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="ย่าง"
@@ -61,7 +61,7 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/Group7"
+                android:id="@+id/Group007"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="อบ"
@@ -69,7 +69,7 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/Group8"
+                android:id="@+id/Group008"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="นึ่ง"
@@ -77,7 +77,7 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/Group9"
+                android:id="@+id/Group009"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="อาหารอบ"
@@ -85,7 +85,7 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/Group10"
+                android:id="@+id/Group0010"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="ยำ"
@@ -93,7 +93,7 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/Group11"
+                android:id="@+id/Group0011"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="เส้น"
@@ -101,7 +101,7 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/Group12"
+                android:id="@+id/Group0012"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="น้ำพริก"
@@ -109,7 +109,7 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/Group13"
+                android:id="@+id/Group0013"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="ธัญพืช"
@@ -117,7 +117,7 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/Group14"
+                android:id="@+id/Group0014"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="ผลไม้"
@@ -125,7 +125,7 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/Group15"
+                android:id="@+id/Group0015"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="เครื่องดื่ม"
@@ -133,7 +133,7 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/Group16"
+                android:id="@+id/Group0016"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="ขนมหวาน"
