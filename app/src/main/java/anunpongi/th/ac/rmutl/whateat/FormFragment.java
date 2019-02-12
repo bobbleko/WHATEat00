@@ -181,10 +181,11 @@ public class FormFragment extends Fragment {
         MyManage myManage = new MyManage(getActivity());
         myManage.addValueToSQLite(nameString,surnameString,genderString,ageString,statureString);
 
-
+        Caculater.caculater(Integer.parseInt( ageString ),Integer.parseInt( statureString ));
         Intent intent = getActivity().getIntent();
         getActivity().finish();
         startActivity(intent);
+
 
     }
 
