@@ -20,7 +20,9 @@ public class Caculater {
             dailyActivityEnergy = dailyEnergy * 1.2;
         } else if (activityNum == 1) {
             dailyActivityEnergy = dailyEnergy * 1.375;
-        } else if (activityNum == 2) {
+        } else if (activityNum ==2) {
+            dailyActivityEnergy = dailyEnergy * 1.55;
+        } else if (activityNum == 3) {
             dailyActivityEnergy = dailyEnergy * 1.725;
         } else {
             dailyActivityEnergy = dailyEnergy * 1.9;
@@ -28,4 +30,7 @@ public class Caculater {
 
     }
 
+    public static void calculateDaily(int parseInt , int parseInt1 , int parseInt2) {
+
+    }
 }

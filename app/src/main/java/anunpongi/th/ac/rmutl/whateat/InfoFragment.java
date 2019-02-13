@@ -41,6 +41,7 @@ public class InfoFragment extends Fragment {
         TextView statureTextView = getView().findViewById(R.id.txtStature);
         TextView kgTextView = getView().findViewById( R.id.txtKg );
 
+
         SQLiteDatabase sqLiteDatabase = getActivity().openOrCreateDatabase(MyOpenHelper.database_name, Context.MODE_PRIVATE, null);
         Cursor cursor = sqLiteDatabase.rawQuery("SELECT * FROM userTABER",null);
         cursor.moveToFirst();
@@ -58,8 +59,14 @@ public class InfoFragment extends Fragment {
 
         kgTextView.setText( cursor.getString( 6 ) );
 
+        dailyActivityEnergy( cursor.getString( 7 ) );
 
 
+
+
+    }
+
+    private void dailyActivityEnergy(String string) {
 
     }
 

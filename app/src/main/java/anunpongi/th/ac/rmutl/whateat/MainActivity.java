@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     //    Explicit
     private DrawerLayout drawerLayout;
     private ActionBarDrawerToggle actionBarDrawerToggle;
-    private ViewModelStore viewModelStore;
+    private ViewModelStore ViewModelStore;
 
 
     @Override
@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void logoutController() {
         TextView textView = findViewById(R.id.txtLogout);
-        textView.setOnClickListener(new View.OnClickListener() {
+        textView.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 getSupportFragmentManager().beginTransaction().replace(R.id.contentFragmentMain, new FormFragment()).commit();

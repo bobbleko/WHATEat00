@@ -98,7 +98,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:clickable="true"
-                android:text="ABOUT_ME"
+                android:text="is manu"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 

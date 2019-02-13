@@ -68,14 +68,41 @@ public class Group2 extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate( R.layout.fragment_group2 , container , false );
-        Button group201 = view.findViewById(R.id.Group201);
-        group201.setOnClickListener(new View.OnClickListener() {
+        Button group201 = view.findViewById( R.id.Group201 );
+        group201.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Caculater.Allnum.add(225);
+                Caculater.Allnum.add( 225 );
             }
-        });
-
+        } );
+        Button group202 = view.findViewById( R.id.Group202 );
+        group202.setOnClickListener( new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Caculater.Allnum.add( 210 );
+            }
+        } );
+        Button group203 = view.findViewById( R.id.Group203 );
+        group203.setOnClickListener( new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Caculater.Allnum.add( 180 );
+            }
+        } );
+        Button group204 = view.findViewById( R.id.Group204 );
+        group204.setOnClickListener( new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Caculater.Allnum.add( 160 );
+            }
+        } );
+        Button group205 = view.findViewById( R.id.Group205 );
+        group205.setOnClickListener( new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Caculater.Allnum.add( 65 );
+            }
+        } );
 
 
         return view;

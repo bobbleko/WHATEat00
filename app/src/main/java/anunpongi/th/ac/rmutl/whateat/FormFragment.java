@@ -16,7 +16,6 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
 
-import java.util.ArrayList;
 
 
 /**
@@ -24,11 +23,19 @@ import java.util.ArrayList;
  */
 public class FormFragment extends Fragment {
 
-    private String nameString, surnameString, genderString,
-            ageString, statureString;
+    private String nameString;
+    private String surnameString;
+    private String genderString;
+    private String ageString;
+    private String statureString;
+    private String kgString;
+    private boolean dailyActivityEnergy;
     private boolean ageABoolean = true;
 //    true Not Choose Age
     private boolean statureABoolean = true;
+//    true Not Choose Stature
+    private boolean kgABoolean = true;
+//    true Not Choose Kg
 
 
     public FormFragment() {
@@ -55,8 +62,33 @@ public class FormFragment extends Fragment {
 //        Kg Controller
         kgController();
 
+//        dailyActivityEnergy
+        dailyActivityEnergy();
 
     }   //Main Methon
+
+    private void dailyActivityEnergy() {
+        final String[] strings = new String[]{"ทำงานนั่งโต๊ะ และไม่ออกกำลังกายเลย","ออกกำลังกาย 1-3 วัน/สัปดาห์ ","ออกกำลังกาย 3-5 วัน/สัปดาห์",
+                "ออกกำลังกาย 6-7 วัน/สัปดาห์","ออกกำลังกายหรือเล่นกีฬาอย่างหนัก หรือเป็นนักกีฬา"};
+        Spinner spinner = getView().findViewById( R.id.txtdailyActivityEnergy );
+        ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter <>( getActivity(), android.R.layout.simple_list_item_1, strings);
+        spinner.setAdapter( stringArrayAdapter );
+        spinner.setOnItemClickListener( new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView <?> parent , View view , int position , long id) {
+                dailyActivityEnergy = Boolean.parseBoolean( strings [position] );
+                if (!(position == 0)) {
+                    dailyActivityEnergy = false;
+                } else {
+                    dailyActivityEnergy = true;
+                }
+
+            }
+
+        });
+
+    }
+
 
     private void kgController() {
         final String[] strings = new String[]{"กรุณาเลือก" , "40" , "41" , "42" , "43" , "44" , "45" , "46" , "47" , "48" ,
@@ -67,15 +99,13 @@ public class FormFragment extends Fragment {
         spinner.setAdapter(stringArrayAdapter);
 
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-            private String kgString;
-
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 kgString = strings[position];
                 if (!(position == 0)) {
-                    statureABoolean = false;
+                    kgABoolean = false;
                 } else {
-                    statureABoolean = true;
+                    kgABoolean = true;
                 }
 
             }
@@ -212,9 +242,9 @@ public class FormFragment extends Fragment {
     private void saveData() {
 
         MyManage myManage = new MyManage(getActivity());
-        myManage.addValueToSQLite(nameString,surnameString,genderString,ageString,statureString,kgController();
+        myManage.addValueToSQLite( nameString , surnameString , genderString , ageString , statureString , kgString );
 
-        Caculater.calculateDaily( Integer.parseInt( statureString ) , Integer.parseInt( ageString ) , Integer.parseInt( genderString ) );
+        Caculater.calculateDaily( Integer.parseInt( statureString ) , Integer.parseInt( ageString ) , Integer.parseInt( genderString )  );
 //        น้ำหนักกับกิจกรรมที่ทำ
         Intent intent = getActivity().getIntent();
         getActivity().finish();

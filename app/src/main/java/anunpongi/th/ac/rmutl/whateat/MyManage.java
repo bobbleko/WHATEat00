@@ -15,12 +15,12 @@ public class MyManage {
 
     }
 
-    public long addValueToSQLite(String nameString,
-                                 String suranmeString,
-                                 String genderString,
-                                 String ageString,
+    public long addValueToSQLite(String string , String nameString ,
+                                 String suranmeString ,
+                                 String genderString ,
+                                 String ageString ,
                                  String statureString
-                                 ) {
+    ) {
 
 
         ContentValues contentValues = new ContentValues();
