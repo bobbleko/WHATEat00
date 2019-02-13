@@ -39,6 +39,7 @@ public class InfoFragment extends Fragment {
         TextView ganderTextView = getView().findViewById(R.id.txtGender);
         TextView ageTextView = getView().findViewById(R.id.txtAge);
         TextView statureTextView = getView().findViewById(R.id.txtStature);
+        TextView kgTextView = getView().findViewById( R.id.txtKg );
 
         SQLiteDatabase sqLiteDatabase = getActivity().openOrCreateDatabase(MyOpenHelper.database_name, Context.MODE_PRIVATE, null);
         Cursor cursor = sqLiteDatabase.rawQuery("SELECT * FROM userTABER",null);
@@ -54,6 +55,8 @@ public class InfoFragment extends Fragment {
         ageTextView.setText(cursor.getString(4));
 
         statureTextView.setText(cursor.getString(5));
+
+        kgTextView.setText( cursor.getString( 6 ) );
 
 
 

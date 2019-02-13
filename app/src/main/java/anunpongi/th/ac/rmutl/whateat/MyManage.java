@@ -19,7 +19,8 @@ public class MyManage {
                                  String suranmeString,
                                  String genderString,
                                  String ageString,
-                                 String statureString) {
+                                 String statureString
+                                 ) {
 
 
         ContentValues contentValues = new ContentValues();
@@ -28,6 +29,7 @@ public class MyManage {
         contentValues.put("Gender", genderString);
         contentValues.put("Age", ageString);
         contentValues.put("Stature", statureString);
+
 
         return sqLiteDatabase.insert("userTABER", null, contentValues);
     }

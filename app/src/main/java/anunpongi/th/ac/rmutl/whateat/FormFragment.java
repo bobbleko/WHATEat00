@@ -52,10 +52,43 @@ public class FormFragment extends Fragment {
 //        Stature Controller
         statureController();
 
-
+//        Kg Controller
+        kgController();
 
 
     }   //Main Methon
+
+    private void kgController() {
+        final String[] strings = new String[]{"กรุณาเลือก" , "40" , "41" , "42" , "43" , "44" , "45" , "46" , "47" , "48" ,
+                "49" , "50" , "51" , "52" , "53" , "54" , "55" , "56" , "57" , "58" , "59" , "60" , "61" , "62" , "63" , "64" , "65" , "66" , "67" , "68" , "69" , "70" , "71" ,
+                "72" , "73" , "74" , "75" , "76" , "77" , "78" , "79" , "80" , "81" , "82" , "83" , "84" , "85" , "86" , "87" , "88" , "89" , "90" ,};
+        Spinner spinner = getView().findViewById(R.id.spnKg);
+        ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, strings);
+        spinner.setAdapter(stringArrayAdapter);
+
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            private String kgString;
+
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                kgString = strings[position];
+                if (!(position == 0)) {
+                    statureABoolean = false;
+                } else {
+                    statureABoolean = true;
+                }
+
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
+
+    }
+
+
 
     private void statureController() {
         final String[] strings = new String[]{"กรุณาเลือก","130","131","132","133","134","135","136","137","138","139","140","141","142","143","144","145","146","147","148",
@@ -179,13 +212,13 @@ public class FormFragment extends Fragment {
     private void saveData() {
 
         MyManage myManage = new MyManage(getActivity());
-        myManage.addValueToSQLite(nameString,surnameString,genderString,ageString,statureString);
+        myManage.addValueToSQLite(nameString,surnameString,genderString,ageString,statureString,kgController();
 
-        Caculater.caculater(Integer.parseInt( ageString ),Integer.parseInt( statureString ));
+        Caculater.calculateDaily( Integer.parseInt( statureString ) , Integer.parseInt( ageString ) , Integer.parseInt( genderString ) );
+//        น้ำหนักกับกิจกรรมที่ทำ
         Intent intent = getActivity().getIntent();
         getActivity().finish();
         startActivity(intent);
-
 
     }
 

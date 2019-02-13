@@ -118,9 +118,23 @@
                 android:textColor="#004d40"
                 android:id="@+id/spnStature"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"></Spinner>
+                android:layout_height="wrap_content"/>
 
-
+            <!--Kg-->
+            <TextView
+                android:textColor="#004d40"
+                android:textStyle="bold"
+                android:textSize="@dimen/h2"
+                android:text="น้ำหนัก"
+                android:layout_marginTop="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Spinner
+                android:layout_marginTop="6dp"
+                android:textColor="#004d40"
+                android:id="@+id/spnKg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
 
 
         </LinearLayout>

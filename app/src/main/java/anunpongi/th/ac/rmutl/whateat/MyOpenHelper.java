@@ -15,7 +15,8 @@ public class MyOpenHelper extends SQLiteOpenHelper {
             "Surname TEXT," +
             "Gender TEXT," +
             "Age TEXT," +
-            "Stature TEXT);";
+            "Stature TEXT,"+
+            "Kg TEXT);";
 
 
 

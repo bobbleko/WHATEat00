@@ -65,6 +65,17 @@
             android:text="text"
             android:textSize="@dimen/h2"
             android:textStyle="bold" />
+<!--KG   -->
+        <TextView
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/txtKg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="text"
+            android:textSize="@dimen/h2"
+            android:textStyle="bold" />
 
 
 

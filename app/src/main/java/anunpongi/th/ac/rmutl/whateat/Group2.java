@@ -7,12 +7,13 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link Group2.OnFragmentInteractionListener} interface
+ * {@link OnFragmentInteractionListener} interface
  * to handle interaction events.
  * Use the {@link Group2#newInstance} factory method to
  * create an instance of this fragment.
@@ -58,13 +59,26 @@ public class Group2 extends Fragment {
             mParam1 = getArguments().getString( ARG_PARAM1 );
             mParam2 = getArguments().getString( ARG_PARAM2 );
         }
+
+
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater , ViewGroup container ,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate( R.layout.fragment_group2 , container , false );
+        View view = inflater.inflate( R.layout.fragment_group2 , container , false );
+        Button group201 = view.findViewById(R.id.Group201);
+        group201.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Caculater.Allnum.add(225);
+            }
+        });
+
+
+
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event
